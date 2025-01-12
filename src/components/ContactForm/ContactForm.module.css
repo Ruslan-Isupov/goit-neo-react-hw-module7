@@ -1,0 +1,46 @@
+.form{
+  width: 350px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid black;
+  padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.labelContact {
+align-self: self-start;
+font-size: 20px;
+color: black;
+padding-left: 12px;
+}
+.input{
+  width: 300px;
+  height: 25px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+.error{
+  color: rgb(175, 41, 41);
+}
+.btn{
+ 
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: rgb(210, 210, 213);
+  color: rgb(43, 42, 42);
+  border-radius: 10px;
+  border: 2px solid rgb(144, 144, 151);
+}
+  .btn:hover,.btn:focus {
+    background-color: rgb(185, 185, 188);
+    color: rgb(246, 246, 246);
+    border: 2px solid rgb(144, 144, 151);
+  }
+  

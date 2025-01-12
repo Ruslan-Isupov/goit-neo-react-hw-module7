@@ -1,0 +1,19 @@
+
+.contactList{
+  list-style: none;
+  margin: 30px 0;
+  display: flex;
+
+  gap: 10px;
+  background-color: rgb(255, 251, 246);
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+.contactItem{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 251, 246);
+}
