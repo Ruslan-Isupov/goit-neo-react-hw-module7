@@ -3,7 +3,7 @@ import {
   fetchContactsThunk,
   addContactThunk,
   deleteContactThunk,
-} from "./contactsThunk";
+} from "./contactsOps";
 
 const setLoader = (state, value) => {
   // state.isLoading = value;
